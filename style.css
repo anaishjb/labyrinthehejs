@@ -1,41 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Macondo&family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: Quicksand;
+    font-weight: bold;
+}
+
+header {
+    height: 20vh;
+    width: 100%;
+    background: #5CAFE7;
+
+}
+
+.navbar {
+    position: absolute;
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    box-sizing: border-box;
+    align-items: center;
+    font-size: medium;
+    margin-left: 15%;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar .logo {
+    align-items: center;
+    width: 5px;
+    height: 1px;
+    display: flex;
+    padding: 3%;
+    margin-right: 50%;
+}
+
+
+
+#logo {
+    height: 122px;
+    width: 300px;
+    size: 50cap;
+}
+
+.navbar .nav-list ul {
+    display: flex;
+}
+
+.navbar .nav-list ul li {
+    margin: 0 20px;
+}
+
+.navbar .nav-list ul li .active {
+    color: whitesmoke;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+div.all {
+    position: absolute;
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.rubriques {
+    background-color: rgb(236, 234, 229);
+    display: flex;
+    font-size: xx-large;
+    font-weight: bolder;
+    width: 150%;
+}
+
+.rubriques span {
+    margin: 0 200px;
+}
+
+.rubriques .lecture .livre {
+    margin-left: 40%;
+
+}
+
+.rubriques .quiz .quizz {
+    margin-left: 42%;
+    height: 50px;
+}
+
+.rubriques .jeux .jeu {
+    margin-left: 40%;
+}
+
+#book {
+    height: 80px;
+    width: 80px;
+}
+
+#quiiz {
+    height: 80px;
+    width: 80px;
+}
+
+#game {
+    height: 80px;
+    width: 80px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+
+
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
-  color: #ffffff;
+  
 }
 
-body {
-  background-color: #fbf9f9;
-}
+
 
 .maze {
+  
   position: absolute;
   left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  top: 100%;
+  transform: translate(-50%, -10%);
 }
 
 #settings {
+  
   position: absolute;
   padding: 1.5rem;
-  top: 50%;
+  top: 90%;
   left: 50%;
   width: 50%;
   height: 30%;
   transform: translate(-50%, -50%);
   text-align: center;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 10px;
-  background-color: #161616;
+  background-color: #008080;
   font-size: 0.8rem;
   z-index: 2;
 }
 
 input {
   margin-bottom: 1rem;
-  background-color: #161616;
+  background-color: #fffff;
   text-align: center;
   border: none;
   border-bottom: 1px solid #ffffff;
@@ -43,7 +174,7 @@ input {
 }
 
 #submit {
-  background-color: #161616;
+  background-color: #ffffff;
   border: 1px solid #ffffff;
   border-radius: 10px;
   padding: 0.4rem;
@@ -63,7 +194,7 @@ input {
   transform: translate(-50%, -50%);
   width: 50%;
   height: 30%;
-  background: #000000;
+  background: #ffffff;
   z-index: 4;
   padding: 2rem;
   text-align: center;
@@ -75,6 +206,12 @@ input {
   left: 50%;
   transform: translateX(-50%);
   top: 10%;
-  color: #000000;
+  color: #fff;
   font-family: "Bungee Inline", cursive;
+}
+.complete{
+    color: white;
+}
+#settings{
+    color: #fff;
 }
