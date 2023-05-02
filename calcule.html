@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jeu de calcul</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="calcul.css" />
+  </head>
+  <body>
+
+    <header class="header">
+        <nav class="navbar">
+            <a href="acceuil.html" class="logo">
+                <img id="logo" src="images/logo.png" alt="logoImage">
+                <img id="logoo" src="images/logo2.png" alt="">
+            </a>
+            <div class="nav-list">
+                <ul>
+                    <li><a href="#" class="active">Acceuil</a></li>
+                    <li><a href="#">Se connecter</a></li>
+                    <li><a href="#contact">Nos contatcs</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <div class="all">
+        <div class="rubriques">
+            <div class="lecture">
+                <a href="#" class="livre"><img id="book" src="images/livre.png" alt="Lecture"></a>
+                <span>Lecture</span>
+            </div>
+            <div class="quiz">
+                <a href="#" class="quizz"><img id="quiiz" src="images/quiz (1).png" alt="Quiz"></a>
+                <span>Quiz</span>
+            </div>
+            <div class="jeux">
+                <a href="#" class="jeu"><img id="game" src="images/jeux.png" alt="Jeux"></a>
+                <span>Jeux</span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+      <h3>Remplissez le blanc avec le numéro ou l'opérateur correct</h3>
+      <div id="question"></div>
+      <button id="submit-btn">Soumettre</button>
+      <p id="error-msg">Some Demo Error Message</p>
+    </div>
+    <div class="controls-container">
+      <p id="result"></p>
+      <button id="start-btn">démarrer le jeu</button>
+    </div>
+
+    <!-- Script -->
+    <script src="calcul.js"></script>
+  </body>
+</html>

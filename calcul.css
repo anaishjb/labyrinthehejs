@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Macondo&family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+ 
+    
+    font-family: Quicksand;
+    font-weight: bold;
+}
+
+header {
+    height: 20vh;
+    width: 100%;
+    background: #5CAFE7;
+
+}
+
+.navbar {
+    position: absolute;
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    box-sizing: border-box;
+    align-items: center;
+    font-size: medium;
+    margin-left: 15%;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar .logo {
+    align-items: center;
+    width: 5px;
+    height: 1px;
+    display: flex;
+    padding: 3%;
+    margin-right: 50%;
+}
+
+
+
+#logo {
+    height: 122px;
+    width: 300px;
+    size: 50cap;
+}
+
+.navbar .nav-list ul {
+    display: flex;
+}
+
+.navbar .nav-list ul li {
+    margin: 0 20px;
+}
+
+.navbar .nav-list ul li .active {
+    color: whitesmoke;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+div.all {
+    position: absolute;
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.rubriques {
+    background-color: rgb(236, 234, 229);
+    display: flex;
+    font-size: xx-large;
+    font-weight: bolder;
+    width: 150%;
+}
+
+.rubriques span {
+    margin: 0 200px;
+}
+
+.rubriques .lecture .livre {
+    margin-left: 40%;
+
+}
+
+.rubriques .quiz .quizz {
+    margin-left: 42%;
+    height: 50px;
+}
+
+.rubriques .jeux .jeu {
+    margin-left: 40%;
+}
+
+#book {
+    height: 80px;
+    width: 80px;
+}
+
+#quiiz {
+    height: 80px;
+    width: 80px;
+}
+
+#game {
+    height: 80px;
+    width: 80px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+
+.container {
+  margin-top: 30%;
+  background-color: #008080;
+  width: 90%;
+  max-width: 31.25em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 5em 3em;
+  border-radius: 0.5em;
+}
+
+  .container h3 {
+    font-size: 1.2em;
+    color: #ffff;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.8em;
+  }
+  .container #submit-btn {
+    font-size: 1.2em;
+    font-weight: 500;
+    display: block;
+    margin: 0 auto;
+    background-color: #008080;;
+    border-radius: 0.3em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #ffff;
+    padding: 0.6em 2em;
+  }
+  #error-msg {
+    text-align: center;
+    margin-top: 1em;
+    background-color: #ffdde0;
+    color: #d62f2f;
+    padding: 0.2em 0;
+  }
+  .container #question {
+    background-color: #eeedf1;
+    font-size: 2em;
+    font-weight: 600;
+    color: #23234c;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.4em 0 1em 0;
+    padding: 1em 0;
+  }
+  .container input {
+    font-size: 1em;
+    font-weight: 600;
+    width: 2.35em;
+    color: #23234c;
+    text-align: center;
+    padding: 0 0.2em;
+    border: none;
+    background-color: transparent;
+    border-bottom: 0.12em solid #23234c;
+    margin: 0 0.25em;
+  }
+  .container input:focus {
+    border-color: #3e31f4;
+    outline: none;
+  }
+  /*Hide Number Arrows*/
+  .container input[type="number"] {
+   -moz-appearance: textfield;
+  }
+  .container input[type="number"]::-webkit-outer-spin-button,
+  .container input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .controls-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #008080;
+    height: 100%;
+    width: 100%;
+    top: 0;
+  }
+  #start-btn {
+    font-size: 1.2em;
+    font-weight: 500;
+    background-color: #ffffff;
+    color: #23234c;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.8em 1.8em;
+    border-radius: 0.3em;
+  }
+  #result {
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    color: #23234c;
+  }
+  #result span {
+    font-weight: 600;
+  }
+  
+  .hide {
+    display: none;
+  }

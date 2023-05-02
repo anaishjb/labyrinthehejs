@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Labrynth</title>
+  </head>
+  <body>
+<header class="header">
+        <nav class="navbar">
+            <a href="acceuil.html" class="logo">
+                <img id="logo" src="images/logo.png" alt="logoImage">
+                <img id="logoo" src="images/logo2.png" alt="">
+            </a>
+            <div class="nav-list">
+                <ul>
+                    <li><a href="#" class="active">Acceuil</a></li>
+                    <li><a href="#">Se connecter</a></li>
+                    <li><a href="#contact">Nos contatcs</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <div class="all">
+        <div class="rubriques">
+            <div class="lecture">
+                <a href="#" class="livre"><img id="book" src="images/livre.png" alt="Lecture"></a>
+                <span>Lecture</span>
+            </div>
+            <div class="quiz">
+                <a href="#" class="quizz"><img id="quiiz" src="images/quiz (1).png" alt="Quiz"></a>
+                <span>Quiz</span>
+            </div>
+            <div class="jeux">
+                <a href="#" class="jeu"><img id="game" src="images/jeux.png" alt="Jeux"></a>
+                <span>Jeux</span>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+
+    <div class="complete">
+      
+      <button class="replay" id="submit">Play again</button>
+      <button class="close" id="submit">Close</button>
+    </div>
+    
+      <form id="settings" action="">
+        <p>Maze Size</p>
+        <input id="size" type="number" value="500"/></br>
+        <p>Rows/Columns</p>
+        <input id="number" type="number" value="20" /></br>
+        <input id="submit" type="submit" value="Generate Maze">
+      </form>
+  
+    <canvas class="maze"></canvas>
+
+    <script src="maze.js"></script>
+    <script src="settings.js"></script>
+  </body>
+</html>
